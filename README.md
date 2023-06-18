@@ -20,3 +20,8 @@ This is a personal project that I am sharing in case it is of interest to any re
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 See the LICENSE.md file for details.
+
+
+## Acknowledgements
+
+* Hans Otten and his [Retro Computing blog](http://retro.hansotten.nl/). A lot of information and high resolution pictures of a K-1008
