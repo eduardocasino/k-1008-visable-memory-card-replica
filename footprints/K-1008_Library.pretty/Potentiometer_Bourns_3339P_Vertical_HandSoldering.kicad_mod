@@ -3,7 +3,7 @@
   (descr "Potentiometer, vertical, Bourns 3339P, hand-soldering, http://www.bourns.com/docs/Product-Datasheets/3339.pdf")
   (tags "Potentiometer vertical Bourns 3339P hand-soldering")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -7.6) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -7.6) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f00ffbc9-c3dc-45a4-b0d2-ab403e092a61)
   )
@@ -15,8 +15,6 @@
       (effects (font (size 0.66 0.66) (thickness 0.15)))
     (tstamp 85096897-4f13-4acd-af64-a3a3070c7114)
   )
-  (fp_circle (center 0 -2.54) (end 3.93 -2.54)
-    (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp 8b2d094e-0818-40e7-b65b-5ee1a66c9ec4))
   (fp_circle (center -2.54 -2.54) (end -3.64 -2.54)
     (stroke (width 0) (type solid)) (fill solid) (layer "B.Mask") (tstamp b22e5f1e-18d2-4ad6-8555-7c35926373b7))
   (fp_circle (center -0.15 -4.63) (end -1.25 -4.63)
