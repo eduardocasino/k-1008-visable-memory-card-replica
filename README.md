@@ -13,6 +13,12 @@ This aims to be a faithful replica of the K-1008 Visable Memory card, a memory e
 I'm using the original K-1008 documentation from various sources on the net, as well as hi-res photos form [Hans Otten's Retro Computing website](http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-1-related-hardware/mtu-k-1012-k-1008/).
 
 
+![components](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-comp.png?raw=true)
+![front](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-front.png?raw=true)
+![back](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-back.png?raw=true)
+
+WARNING: I have not yet sent the board to fabrication, so it is untested!
+
 ## Licensing
 
 This is a personal project that I am sharing in case it is of interest to any retrocomputing enthusiast and all the information in this repository is provided "as is", without warranty of any kind. I am not liable for any damages that may occur, whether it be to individuals, objects, KIM-1 computers, kittens or any other pets. **It should also be noted that everything in this repository is a work in progress, has not been tested and may contain errors, therefore anyone who chooses to use it does so at their own risk**.
