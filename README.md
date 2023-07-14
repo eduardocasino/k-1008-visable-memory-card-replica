@@ -4,6 +4,8 @@
 
 Welcome to my K-1008 Visable Memory card replica repository. This is a work in progress, please check out from time to time.
 
+Board is now complete and sent for fabrication.
+
 ## About
 
 This aims to be a faithful replica of the K-1008 Visable Memory card, a memory expansion and display board for the KIM-1 designed by MTU in the late 70's
@@ -25,3 +27,4 @@ See the LICENSE.md file for details.
 ## Acknowledgements
 
 * Hans Otten and his [Retro Computing blog](http://retro.hansotten.nl/). A lot of information and high resolution pictures of a K-1008
+* Dave Plummer of [Dave's Garage fame](https://www.youtube.com/c/DavesGarage). Nice hi-res photos and actual board dimensions.
