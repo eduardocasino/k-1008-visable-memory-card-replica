@@ -1,0 +1,48 @@
+(footprint "C54_C55_Plus" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp d1cdf9a8-a147-4bef-b3a7-e766c99eba16)
+  )
+  (fp_text value "Val**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 02890633-5166-43f9-b94f-0d04bf570ee4)
+  )
+  (fp_poly
+    (pts
+      (xy 1.470002 -1.445624)
+      (xy 2.337835 -1.445624)
+      (xy 2.337835 -0.937624)
+      (xy 1.470002 -0.937624)
+      (xy 1.470002 -0.06979)
+      (xy 0.940835 -0.06979)
+      (xy 0.940835 -0.937624)
+      (xy 0.073002 -0.937624)
+      (xy 0.073002 -1.445624)
+      (xy 0.940835 -1.445624)
+      (xy 0.940835 -2.313457)
+      (xy 1.470002 -2.313457)
+      (xy 1.470002 -1.445624)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 3b9fcf18-59c3-4b5e-99f0-c4fa6d78f314))
+  (fp_poly
+    (pts
+      (xy 5.364669 -12.07129)
+      (xy 6.232502 -12.07129)
+      (xy 6.232502 -11.56329)
+      (xy 5.364669 -11.56329)
+      (xy 5.364669 -10.695457)
+      (xy 4.835502 -10.695457)
+      (xy 4.835502 -11.56329)
+      (xy 3.967669 -11.56329)
+      (xy 3.967669 -12.07129)
+      (xy 4.835502 -12.07129)
+      (xy 4.835502 -12.939124)
+      (xy 5.364669 -12.939124)
+      (xy 5.364669 -12.07129)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 461242a1-b290-47df-adca-e32ef47d9cfc))
+)

@@ -1,0 +1,30 @@
+(footprint "C1_Plus" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 72442f63-6133-4db1-b630-f6a1b1de5360)
+  )
+  (fp_text value "Val**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 83f1a0cd-a784-4c26-9f2b-9b2a82ec1c31)
+  )
+  (fp_poly
+    (pts
+      (xy 1.454211 -1.429865)
+      (xy 2.322044 -1.429865)
+      (xy 2.322044 -0.921865)
+      (xy 1.454211 -0.921865)
+      (xy 1.454211 -0.054032)
+      (xy 0.946211 -0.054032)
+      (xy 0.946211 -0.921865)
+      (xy 0.057211 -0.921865)
+      (xy 0.057211 -1.429865)
+      (xy 0.946211 -1.429865)
+      (xy 0.946211 -2.297699)
+      (xy 1.454211 -2.297699)
+      (xy 1.454211 -1.429865)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp d5b93791-d422-43d4-b4a6-319aec68bc6a))
+)
