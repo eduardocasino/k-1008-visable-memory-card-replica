@@ -4,20 +4,15 @@
 
 Welcome to my K-1008 Visable Memory card replica repository. This is a work in progress, please check out from time to time.
 
-Board is now complete and sent for fabrication.
-
 ## About
 
 This aims to be a faithful replica of the K-1008 Visable Memory card, a memory expansion and display board for the KIM-1 designed by MTU in the late 70's
 
 I'm using the original K-1008 documentation from various sources on the net, as well as hi-res photos form [Hans Otten's Retro Computing website](http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-1-related-hardware/mtu-k-1012-k-1008/).
 
-
 ![components](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-comp.png?raw=true)
 ![front](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-front.png?raw=true)
 ![back](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-back.png?raw=true)
-
-~~WARNING: I have not yet sent the board to fabrication, so it is untested!~~
 
 The card has been built and is being tested. All the memory is accessible and passes the memory tests by ["The Glitch Works"](https://github.com/glitchwrks/kim1_memtest) without any error. The picture however has some color artifacts and is not steady. I'm suspecting that it could be because I'm using a modern LCD monitor with a crappy video converter. More tests are needed but, anyway, it does not seem that there is any fundamental problem with the board.
 
