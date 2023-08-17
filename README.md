@@ -29,7 +29,7 @@ There is nothing special about building the board. As with any other PCB, start 
 * You can ues a 1K trimmer instead of the 512R one. The one in the original board is [this one](https://www.bourns.com/docs/Product-Datasheets/3339.pdf), which is a bit expensive for a pot, but you can use any other with the same pin arrangement.
 * And, finally, a low Vf Schottky, like the BAT86, is a perfect replacement for the Ge 1N270 diode to simulate an open-collector gate for the VECTOR_FETCH (K7) signal.
 
-To connect the board to your KIM-1, build a connector as instructed in the [K-1008 User Manual], or you can use [my adapter board](https://github.com/eduardocasino/kim-1-mtu-expansion-card)
+To connect the board to your KIM-1, build a connector as instructed in the [K-1008 User Manual](http://retro.hansotten.nl/uploads/files/K-1008%20Visible%20Memory%20Manual.pdf), or you can use [my adapter board](https://github.com/eduardocasino/kim-1-mtu-expansion-card)
 
 ### First setup
 
