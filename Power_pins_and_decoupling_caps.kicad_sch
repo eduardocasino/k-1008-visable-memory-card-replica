@@ -6422,6 +6422,12 @@
     (uuid ff9b98b3-a218-4bd6-9195-e55d1e3ddb6c)
   )
 
+  (text "NOTE:	The documentation says \"47nF or greater\" for\n		the decoupling capacitors. The replica uses the\n		more usual 100nF value."
+    (at 33.02 231.14 0)
+    (effects (font (size 0.7 0.7) (color 194 0 0 1)) (justify left bottom))
+    (uuid 49368a3a-bea2-41f1-8d23-15f95327692f)
+  )
+
   (hierarchical_label "-5V" (shape input) (at 36.068 274.574 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1b13cbd7-1a06-4d23-83bf-2e6d47f259ef)

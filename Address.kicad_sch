@@ -2567,6 +2567,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0984ed8a-d371-4d67-8287-9068ced78d92)
   )
+  (text "NOTE:	OBSOLETE. Use a low Vf Schottky,\n		like the BAT86\n"
+    (at 142.24 78.74 0)
+    (effects (font (size 0.7 0.7) (color 194 0 0 1)) (justify left bottom))
+    (uuid 6e7fb7b8-0ecf-489a-9d74-dca6a20941a9)
+  )
 
   (hierarchical_label "RAM_A2" (shape output) (at 165.735 175.895 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
