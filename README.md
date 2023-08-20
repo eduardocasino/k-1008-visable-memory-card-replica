@@ -16,7 +16,7 @@ As some traces on the top layer are hidden under the components, I've had to add
 ![front](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-front.png?raw=true)
 ![back](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/k-1008-visable-memory-back.png?raw=true)
 
-The card has been built and tested. All the memory is accessible and passes the memory tests by ["The Glitch Works"](https://github.com/glitchwrks/kim1_memtest) without any error. The image is clear an steady.
+The card has been built and tested. All the memory is accessible and passes the memory tests by ["The Glitch Works"](https://github.com/glitchwrks/kim1_memtest) without any error. The image is clear and steady.
 
 ![finished board](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/board_completed.jpg?raw=true)
 ![finished board](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/images/test_setup.jpg?raw=true)
@@ -30,8 +30,11 @@ There is nothing special about building the board. As with any other PCB, start 
 * All the logic ICs are still manufactured, except for the 74LS13 and, I think, the 74LS55, but they are still in stock in some places.
 * I've left the regulators unpopulated (bridged) and I use regulated 5V and 12V (an option which the manual suggests), but the LM340T5 is still in production and the LM342P12 can be replaced by the LM340T12.
 * the 2N3646/2N9416 used in the level shifters are obsolete and expensive if you find them. I'm using a PN2369A/2N4403 pair, see the schematic for the changes in the base resistors and speed-up capacitors.
-* You can ues a 1K trimmer instead of the 512R one. The one in the original board is [this one](https://www.bourns.com/docs/Product-Datasheets/3339.pdf), which is a bit expensive for a pot, but you can use any other with the same pin arrangement.
+* You can use a 1K trimmer instead of the 512R one. The one in the original board is [this one](https://www.bourns.com/docs/Product-Datasheets/3339.pdf), which is a bit expensive for a pot, but you can use any other with the same pin arrangement.
+* The 74LS30 (U1) was socketed in the original for easy removal in case of multi-card configuration. All the memories are also socketed. The switch bank (S1) was a normal DIP socket in the original, just add an 8-way DIP switch on top. 
 * And, finally, a low Vf Schottky, like the BAT86, is a perfect replacement for the Ge 1N270 diode to simulate an open-collector gate for the VECTOR_FETCH (K7) signal.
+
+The [BOM spreadsheet](https://github.com/eduardocasino/k-1008-visable-memory-card-replica/blob/main/docs/bom.xlsx) is updated with all these changes.
 
 To connect the board to your KIM-1, build a connector as instructed in the [K-1008 User Manual](http://retro.hansotten.nl/uploads/files/K-1008%20Visible%20Memory%20Manual.pdf), or you can use [my adapter board](https://github.com/eduardocasino/kim-1-mtu-expansion-card)
 
@@ -45,7 +48,7 @@ Use a multimeter and adjust the potentiometer until the voltage at pin 13 of U8 
 
 ## Licensing
 
-This is a personal project that I am sharing in case it is of interest to any retrocomputing enthusiast and all the information in this repository is provided "as is", without warranty of any kind. I am not liable for any damages that may occur, whether it be to individuals, objects, KIM-1 computers, kittens or any other pets. **It should also be noted that everything in this repository is a work in progress, has not been tested and may contain errors, therefore anyone who chooses to use it does so at their own risk**.
+This is a personal project that I am sharing in case it is of interest to any retrocomputing enthusiast and all the information in this repository is provided "as is", without warranty of any kind. I am not liable for any damages that may occur, whether it be to individuals, objects, KIM-1 computers, kittens or any other pets. **It should also be noted that everything in this repository is a work in progress and, although the board has been tested, may contain errors. Therefore, anyone who chooses to use it does so at their own risk**.
 
 [![license](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
