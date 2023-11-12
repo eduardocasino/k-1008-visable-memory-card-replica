@@ -48,7 +48,7 @@ Use a multimeter and adjust the potentiometer until the voltage at pin 13 of U8 
 
 ### Using the K-1008 with other memory expansion boards
 
-The K-1008 forces low the K7 line when addressing the upper 256 bytes of memory ($FF00-$FFFFFF), to point to the interrupt vectors that are in the 6530's ROM.
+The K-1008 forces low the K7 line when addressing the upper 256 bytes of memory ($FF00-$FFFF), to point to the interrupt vectors that are in the 6530's ROM.
 
 If this is not what you want or the other expansion board has finer control of vector addressing, such as Corsham's, leave U1 (74LS30) unpopulated.
 
