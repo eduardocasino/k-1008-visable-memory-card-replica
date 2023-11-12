@@ -46,6 +46,12 @@ Pins 19 (VECTOR_FETCH) and 20 (DECODE_ENABLE) pins of the board connector must b
 
 Use a multimeter and adjust the potentiometer until the voltage at pin 13 of U8 is 1.4V. Now you should be able yo read/write from memory addresses from $2000 to $3FFF and a clean image with a random pattern should be shown on the monitor.
 
+### Using the K-1008 with other memory expansion boards
+
+The K-1008 forces low the K7 line when addressing the upper 256 bytes of memory ($FF00-$FFFFFF), to point to the interrupt vectors that are in the 6530's ROM.
+
+If this is not what you want or the other expansion board has finer control of vector addressing, such as Corsham's, leave U1 (74LS30) unpopulated.
+
 ## Licensing
 
 This is a personal project that I am sharing in case it is of interest to any retrocomputing enthusiast and all the information in this repository is provided "as is", without warranty of any kind. I am not liable for any damages that may occur, whether it be to individuals, objects, KIM-1 computers, kittens or any other pets. **It should also be noted that everything in this repository is a work in progress and, although the board has been tested, may contain errors. Therefore, anyone who chooses to use it does so at their own risk**.
